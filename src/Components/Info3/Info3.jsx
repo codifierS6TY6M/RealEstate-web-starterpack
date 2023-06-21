@@ -31,8 +31,8 @@ const Info3 = () => {
                 </h3>
               </div>
             </div>
-            <div className="info-right">
-              <div className="image-container">
+            <div className="info3-right">
+              <div className="info3-image">
                 <img src="./ideas.png" alt="" />
               </div>
             </div>

@@ -3,15 +3,16 @@ import "./Product1.css";
 const Product1 = () => {
   return (
     <div>
-      <section className="info-wrapper">
+      <section className="product-wrapper">
         <div className="paddings innerWidth">
-          <div className=" paddings innerWidth flexCenter info-container">
-            <div className="info-Product">
-              <h1>Our Products</h1>
-              <div className=" flexColStart Product-title">
-                <h4>Apni Gaadi user</h4>
-                <h4>Coming Soon</h4>
-                <h5>
+          <div className="flexColStart product-head">
+            <span>Our product</span>
+          </div>
+          <div className=" paddings innerWidth flexCenter product-container">
+            <div className="product-left">
+              <div className=" flexColStart product-title">
+                <span>Apni-Gaadi user</span>
+                <h3>
                   The ApniGaadi User app is your gateway to convenient and
                   reliable transportation. With its intuitive interface, you can
                   easily book rides, track your driver's location in real-time,
@@ -22,11 +23,11 @@ const Product1 = () => {
                   travel with ApniGaadi. Experience the convenience and
                   reliability of our user app and enjoy hassle-free
                   transportation at your fingertips.
-                </h5>
+              </h3>
               </div>
             </div>
-            <div className="info-left-right">
-              <div className="image-container">
+            <div className="product-right">
+              <div className="product-image">
                 <img src="./apni user.png" alt="" />
               </div>
             </div>

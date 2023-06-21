@@ -7,18 +7,18 @@ const Home = () => {
     <div>
       <section className="hero-wrapper">
         <div className="paddings innerWidth">
-          <div className=" paddings innerWidth flexCenter hero-container">
+          <div className="  hero-title-img">
+            <img src="logo5.png" alt="logo" />
+          </div>
+          <div className=" paddings flexCenter hero-container">
             <div className="hero-left">
-              <div className="  hero-title-img">
-                <img src="logo5.png" alt="logo" />
-              </div>
               <div className=" flexColStart hero-title">
                 <motion.h1
                   initial={{ y: "2rem", opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     duration: 2,
-                    type: "spring",
+                    type: "ease in",
                   }}
                 >
                   <h1>
@@ -53,7 +53,7 @@ const Home = () => {
                 }}
               >
                 <div className="image-container">
-                  <img src="./img2.png" alt="" />
+                  <img src="City driver.png" alt="" />
                 </div>
               </motion.div>
             </div>

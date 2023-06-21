@@ -6,18 +6,12 @@ const Info = () => {
     <div>
       <section className="info-wrapper">
         <div className="paddings innerWidth">
+          <div className="flexColStart info-head">
+            <span>What we are?</span>
+          </div>
           <div className=" paddings innerWidth flexCenter info-container">
             <div className="info-left">
-              <h1>WHAT WE ARE?</h1>
               <div className=" flexColStart info-title">
-                <motion.h3
-                  initial={{ y: "2rem", opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{
-                    duration: 2,
-                    type: "spring",
-                  }}
-                >
                   <h3>
                     Apni Gaadi is a pioneering transportation company that has
                     revolutionized the way people travel. With our innovative
@@ -33,10 +27,9 @@ const Info = () => {
                     enabling in-app transactions, eliminating the hassle of cash
                     payments.
                   </h3>
-                </motion.h3>
               </div>
             </div>
-            <div className="info-left-right">
+            <div className="info-right">
               <motion.div
                 initial={{ x: "100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -45,7 +38,7 @@ const Info = () => {
                   type: "ease in",
                 }}
               >
-                <div className="image-container">
+                <div className="info-image">
                   <img src="./image 4.png" alt="" />
                 </div>
               </motion.div>

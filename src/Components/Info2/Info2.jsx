@@ -7,7 +7,7 @@ const Info2 = () => {
         <div className="paddings innerWidth">
           <div className=" paddings innerWidth flexCenter info2-container">
             <div className="info2-left">
-              <div className="image-container">
+              <div className="info2-image">
                 <img src="./cabsss.png" alt="" />
               </div>
             </div>

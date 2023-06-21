@@ -3,14 +3,13 @@ import "./Product2.css";
 const Product2 = () => {
   return (
     <div>
-      <section className="info-wrapper">
+      <section className="product2-wrapper">
         <div className="paddings innerWidth">
-          <div className=" paddings innerWidth flexCenter info-container">
-            <div className="info-Product">
-              <div className=" flexColStart Product-title">
-                <h4>Apni Gaadi Driver</h4>
-                <h4>Coming Soon</h4>
-                <h5>
+          <div className=" paddings innerWidth flexCenter product2-container">
+            <div className="product2-left">
+              <div className=" flexColStart product2-title">
+                <span>Apni-Gaadi Driver</span>
+                <h3>
                   The ApniGaadi Driver app is a powerful tool designed for our
                   drivers. With its user-friendly interface and robust features,
                   drivers can efficiently manage their rides, track earnings,
@@ -18,11 +17,11 @@ const Product2 = () => {
                   in one convenient app. It empowers our drivers to provide
                   seamless and exceptional service to our passengers, ensuring a
                   smooth and efficient transportation experience for all.
-                </h5>
+                </h3>
               </div>
             </div>
-            <div className="info-left-right">
-              <div className="image-container">
+            <div className="product2-right">
+              <div className="product2-image">
                 <img src="./apni driver.png" alt="" />
               </div>
             </div>
