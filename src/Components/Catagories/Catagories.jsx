@@ -16,7 +16,7 @@ const Catagories = () => {
                 </div>
                 <div className=" apnicab-logo">
                   <button>learn more </button>
-                  <img src="apnicabs.png" alt="" />
+                  <img className="cabimg" src="apnicabs.png" alt="" />
                 </div>
               </div>
               <div className="paddings innerWidth Catagories">

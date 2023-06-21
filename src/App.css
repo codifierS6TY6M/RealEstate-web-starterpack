@@ -77,3 +77,102 @@
   background: #2b8ec6;
   filter: blur(122px);
 }
+@media (max-width: 420px) {
+  .grey-gradient {
+    position: absolute;
+    width: 252.8px;
+    height: 251.14px;
+    left: 341.42px;
+    top: -88px;
+    background: #878480;
+    filter: blur(50px);
+    transform: rotate(38.23deg);
+  }
+
+  .red-gradient {
+    position: absolute;
+    width: 365px;
+    height: 384px;
+    left: 236px;
+    top: 1250px;
+
+    background: #7d0d0d;
+    filter: blur(86.5px);
+  }
+
+  .grey-gradient2 {
+    position: absolute;
+    width: 241.53px;
+    height: 284.85px;
+    left: -20.72px;
+    top: 439px;
+
+    background: #878480;
+    filter: blur(50px);
+    transform: rotate(38.23deg);
+  }
+
+  .sky-gradient {
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    left: 79px;
+    top: 985px;
+
+    background: #0d627d;
+    filter: blur(50px);
+  }
+
+  .grey-gradient3 {
+    position: absolute;
+    width: 531px;
+    height: 415px;
+    left: -384px;
+    top: 2100px;
+
+    background: #878480;
+    filter: blur(50px);
+  }
+
+  .sky-gradient2 {
+    position: absolute;
+    width: 507px;
+    height: 662px;
+    left: 186px;
+    top: 2784px;
+
+    background: #2b8ec6;
+    filter: blur(122px);
+  }
+
+  .red-gradient2 {
+    position: absolute;
+    width: 439px;
+    height: 378px;
+    left: -292px;
+    top: 3898px;
+
+    background: #e13340;
+    filter: blur(196px);
+  }
+
+  .sky-gradient3 {
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 3000px;
+    filter: blur(100px);
+    transform: none;
+  }
+  .grey-gradient,
+  .red-gradient,
+  .grey-gradient2,
+  .sky-gradient,
+  .grey-gradient3,
+  .sky-gradient2,
+  .red-gradient2,
+  .sky-gradient3 {
+    position: absolute;
+    z-index: -1;
+  }
+}

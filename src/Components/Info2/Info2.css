@@ -36,7 +36,7 @@
   line-height: 24px;
   color: white;
   margin-top: 1rem;
-  text-align: left;
+  text-align: justify;
 }
 @media (max-width: 450px) {
   .info2-image > img {
@@ -54,6 +54,37 @@
     font-size: 14px;
     line-height: 20px;
     margin-top: 1rem;
-    text-align: center;
+    text-align: justify;
+  }
+  .info2-left {
+    order: -1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .info2-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1142px) {
+  .info2-left {
+    order: -1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .info2-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .info2-title h3{
+    text-align: justify;
   }
 }

@@ -83,3 +83,10 @@
     width: auto;
   }
 }
+@media (max-width: 767px) {
+  .swiper-button-next,
+.swiper-button-prev {
+  width: 5px; /* Adjust the desired width */
+  height: 5px;
+}
+}

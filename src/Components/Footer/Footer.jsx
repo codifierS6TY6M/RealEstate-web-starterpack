@@ -4,21 +4,30 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className=" flexCenter section-p1">
-      <div className="paddings col">
+      <div className="paddings Addres">
         <img className="logo" src="./logo5.png" alt="Logo" />
         <h4>Contact</h4>
         <p>
-          <strong>Address:</strong> GAUR YAMUNA CITY GREATER NOIDA, Dankaur,
-          Sikandrabad Bulandshahr, UP 203201 IN
+          <strong>Address:</strong>GREATER NOIDA, UP 203201 IN
         </p>
         <p>
           <strong>Phone:</strong> +91 9068227554
+        </p>
+        <p>
+          <strong>Email:</strong> support@apni-gaadi.com
         </p>
         <p>
           <strong>Hours:</strong> 10:00 - 18:00, mon - sat
         </p>
         <div className="follow">
           <h4>Follow us</h4>
+          <div class="icon">
+            <img src="Facebook.png" alt="" />
+            <img src="instagram.png" alt="" />
+            <img src="Youtube.png" alt="" />
+            <img src="Twitter.png" alt="" />
+            <img src="linkedin.png" alt="" />
+          </div>
         </div>
       </div>
       <div className="paddings col">

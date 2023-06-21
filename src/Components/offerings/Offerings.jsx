@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
-import SwiperCore, { Navigation, Pagination, EffectCoverflow } from "swiper";
+import SwiperCore, { Pagination, EffectCoverflow } from "swiper";
 
 import "./Offering.css";
 
-SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
+SwiperCore.use([Pagination, EffectCoverflow]);
 
 const Offerings = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -16,7 +15,6 @@ const Offerings = () => {
   const handleSlideChange = (swiper) => {
     setActiveSlide(swiper.activeIndex);
   };
-
   return (
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">

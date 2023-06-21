@@ -37,28 +37,50 @@
   line-height: 24px;
   color: white;
   margin-top: 1rem;
-  text-align: left;
+  text-align: justify;
 }
 @media (max-width: 450px) {
   .info3-image > img {
     width: 200px;
     height: 200px;
   }
-  .info3-image {
-    margin-left: 50px;
-  }
   .info3-right {
     order: -1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
   }
   .info3-title {
     width: 100%;
     max-width: 300px;
   }
-    .info3-title h3 {
+  .info3-title h3 {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     margin-top: 1rem;
+    text-align: justify;
+  }
+}
+@media (max-width: 1142px) {
+  .info3-right {
+    order: -1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .info3-title {
+    align-items: center;
     text-align: center;
+  }
+  .info3-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .info3-title h3 {
+    text-align: justify;
   }
 }
